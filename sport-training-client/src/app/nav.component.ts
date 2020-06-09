@@ -19,6 +19,7 @@ import { UserInfo } from './user-info';
       <p>Welcome</p>
       <p>{{ userInfo?.userDetails }}</p>
       <p>{{ userInfo?.identityProvider }}</p>
+      <p>{{ userInfo?.userRoles.length }}</p>
     </div>
   `,
 })
