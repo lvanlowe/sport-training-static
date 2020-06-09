@@ -20,6 +20,9 @@ import { SportsDetailsComponent } from './sports/sports-details/sports-details.c
 import { LocationsDetailsComponent } from './sports/locations-details/locations-details.component';
 import { CategoriesDetailsComponent } from './sports/categories-details/categories-details.component';
 import { TeamsDetailsComponent } from './sports/teams-details/teams-details.component';
+import { AuthLoginComponent } from './auth-login.component';
+import { AuthLogoutComponent } from './auth-logout.component';
+import { NavComponent } from './nav.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +35,10 @@ import { TeamsDetailsComponent } from './sports/teams-details/teams-details.comp
     SportsDetailsComponent,
     LocationsDetailsComponent,
     CategoriesDetailsComponent,
-    TeamsDetailsComponent
+    TeamsDetailsComponent,
+    NavComponent,
+    AuthLoginComponent,
+    AuthLogoutComponent,
   ],
   imports: [
     BrowserModule,
